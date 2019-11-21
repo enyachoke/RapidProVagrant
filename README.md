@@ -17,6 +17,7 @@ python manage.py migrate
 npm install
 npm install less -g
 npm install coffeescript -g
+python manage.py createsuperuser
 python manage.py runserver 0.0.0.0:8000
 ```
 
